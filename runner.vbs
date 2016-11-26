@@ -1,7 +1,7 @@
 Set QTP = CreateObject("QuickTest.Application")
 QTP.Launch
-QTP.Visible = True
-
+'QTP.Visible = True
+QTP.Visible
 QTP.Open "D:\QTP Scripts\FaceBook",True
 
 Set qtpResultsOpt = CreateObject("QuickTest.RunResultsOptions")
